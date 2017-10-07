@@ -16,7 +16,14 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
   font-weight: 500;
+  letter-spacing: 2px;
+}
+
+p {
+  letter-spacing: 1px;
 }
 
