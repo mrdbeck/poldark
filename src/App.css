@@ -10,7 +10,7 @@ h3 {
 }
 
 h4 {
-  color: #266DD3;
+  color: #1FAEFF;
 }
 
 p {
@@ -20,8 +20,8 @@ p {
 
 .Main {
   display: flex;
-  background: white;
-  color: #1F2232;
+  background: #35435d;
+  color: #F5F0F6;
   flex-direction: column;
   min-height: 100%;
 }
@@ -30,7 +30,7 @@ p {
   position: absolute;
   top: 15px;
   left: 15px;
-  color: #266DD3;
+  color: #1FAEFF;
   z-index: 1;
 }
 
@@ -59,7 +59,7 @@ p {
 .Main-Title:before {
   height: 4px;
   position: absolute;
-  background: #266DD3;
+  background: #1FAEFF;
   width: 30px;
   content: '';
   top: -10px;
@@ -67,15 +67,14 @@ p {
 }
 
 .Main-Content {
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 400;
   opacity: 0.8;
 }
 
 .Main-Soon {
-  opacity: 0.8;
-  font-size: 14px;
-  padding: 50px 0;
+  font-size: 16px;
+  padding: 15px 0 50px;
 }
 
 .Main-Hero {
@@ -86,6 +85,13 @@ p {
   position: relative;
   height: 40%;
   min-height: 500px;
+}
+
+.Main-Copyright {
+  position: absolute; 
+  bottom: 15px;
+  left: 15px;
+  font-size: 13px;
 }
 
 .Main-Address {
@@ -141,6 +147,11 @@ p {
   .Main-Hero {
     width: 50%;
     height: 100%;
+  }
+  
+  .Main-Soon,
+  .Main-Content {
+    font-size: 18px;
   }
   
 }
