@@ -2,7 +2,7 @@
   "name": "poldark",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mrdbeck.github.io/poldark",
+  "homepage": "https://mrdbeck.github.io",
   "dependencies": {
     "gh-pages": "^1.0.0",
     "react": "^16.0.0",
